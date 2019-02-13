@@ -1,0 +1,488 @@
+[
+{
+"material":"protein",
+"id":"1",
+"cn":"鸡胸肉",
+"enname":"Chicken Breast",
+"detail":"蛋白质中的战斗机，作为动物蛋白脂肪含量低至2%，是健身餐的首选。",
+"endetail":"Most classic source of protein, has only 2% fat as an complete protein.",
+"img":"chicken-breast"
+},
+{
+"material":"protein",
+"id":"2",
+"cn":"瘦牛肉",
+"enname":"Lean Beef",
+"detail":"选用上等后臀牛柳，脂肪含量约4%，是牛肉中最低的。拥有大量优质蛋白质。",
+"endetail":"We choose beef center loin which as the lowest fat of 4%. Best beef protein source.",
+"img":"eye-round-roast"
+},
+{
+"material":"protein",
+"id":"3",
+"cn":"鸡腿肉",
+"enname":"Chicken Thigh",
+"detail":"口感和味道相比鸡胸肉更好。去皮去骨的鸡腿肉脂肪含量在7%～8%之间。",
+"endetail":"7-8% fat. We use boneless skinless chicken thigh to reduce fat contents. Juicier and tastier than breast meat.",
+"img":"chicken-thigh"
+},
+{
+"material":"protein",
+"id":"4",
+"cn":"虾仁",
+"enname":"Shrimp",
+"detail":"营养密度相对较低，蛋白质密度比肉类较少，脂肪含量低至1%以下，味道鲜美。",
+"endetail":"Has low caloric density, and packed with high quality protein. Has less than 1% of fat content.",
+"img":"shrimp"
+},
+{
+"material":"protein",
+"id":"5",
+"cn":"龙利鱼柳",
+"enname":"Catfish",
+"detail":"口感极佳。拥有优质蛋白质和Omega-3多不饱和脂肪酸，脂肪含量在4%左右。",
+"endetail":"High in protein and essential omega-3,6,9 fatty acids. 4% in fat content and very tasty.",
+"img":"catfish"
+},
+{
+"material":"protein",
+"id":"6",
+"cn":"三文鱼",
+"enname":"Salmon",
+"detail":"拥有大量不饱和脂肪酸，DHA，EPA，优质蛋白质。脂肪含量12%，是最高级的营养来源。",
+"endetail":"Packed with omega 3,6,9 fatty acids, DHA, EPA, and high quality protein. Top grade fat source.",
+"img":"salmon"
+},
+{
+"material":"protein",
+"id":"7",
+"cn":"牛腱",
+"enname":"Beef Shank",
+"detail":"脂肪含量6%，拥有大量优质蛋白质以及骨胶原，对于保持骨骼/筋腱韧性有很大帮助。",
+"endetail":"Packed with omega 3,6,9 fatty acids, DHA, EPA, and high quality protein. Top grade fat source.",
+"img":"beef-shank"
+},
+{
+"material":"protein",
+"id":"8",
+"cn":"蛋清",
+"enname":"Egg Whites",
+"detail":"100%液体蛋清，所有热量都来自蛋白质。是补充高脂肪肉类餐品的好搭档。",
+"endetail":"100% liquid egg whites, with 100% protein in nutrition content. Best match with high fat protein source.",
+"img":"egg-whites"
+},
+{
+"material":"protein",
+"id":"9",
+"cn":"乳清蛋白",
+"enname":"Whey Protein",
+"detail":"厨用蛋白粉，是白面的替代品。用来烤松饼，马芬，饼干等零食。",
+"endetail":"Healthier substitute for flour. Mostly used in baking such as muffins and cookies.",
+"img":"whey-protein"
+},
+{
+"material":"protein",
+"id":"10",
+"cn":"鸡肉培根",
+"enname":"Chicken Bacon",
+"detail":"脂肪含量只有猪肉培根五分之一，为8%。少量用在沙拉中，提高餐品味道。",
+"endetail":"Has only 1/5 of fat than regular bacon, 8%. Mostly used in salads for better tastes.",
+"img":"chicken-bacon"
+},
+{
+"material":"protein",
+"id":"11",
+"cn":"三文鱼罐头",
+"enname":"Canned Salmon",
+"detail":"脂肪含量7%，比新鲜三文鱼少，蛋白含量较高。早餐三明治的首选。",
+"endetail":"7% fat, which is less than fresh salmon, and richer in protein. First choice for sandwiches.",
+"img":"canned-salmon"
+},
+{
+"material":"protein",
+"id":"12",
+"cn":"鲔鱼罐头",
+"enname":"Canned Tuna",
+"detail":"几乎所有热量都来自于蛋白质。口感稍干，配合脂肪较高的食材搭配出均衡的餐品。",
+"endetail":"We use tuna in water to reduce fat. A bit dry in taste, best match with in-gredients with high fat con-tent.",
+"img":"tuna"
+},
+{
+"material":"protein",
+"id":"13",
+"cn":"豆干",
+"enname":"Dried Tofu",
+"detail":"豆腐的再加工产品。号称田中的肉。雌激素较高，需要配合其他肉类弥补。",
+"endetail":"Classic plant protein. However it is relatively high in estrogen. Mostly used with other meat products.",
+"img":"dried-tofu"
+},
+{
+"material":"protein",
+"id":"14",
+"cn":"鸡蛋",
+"enname":"Eggs",
+"detail":"蛋黄中拥有大量维生素，不饱和脂肪酸以及微量元素。与蛋清搭配，可以控制脂肪摄入。",
+"endetail":"Rich in essential fatty acids and protein. Best match with liquid egg whites.",
+"img":"egg"
+},
+{
+"material":"protein",
+"id":"15",
+"cn":"鸡小腿",
+"enname":"Drumsticks",
+"detail":"口感极佳，味道鲜美。缺点是脂肪含量较多，在10%左右。蛋白密度在鸡胸肉之上。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"smallchickenleg"
+},
+{
+"material":"protein",
+"id":"16",
+"cn":"希腊酸奶",
+"enname":"Drumsticks",
+"detail":"选用0%希腊酸奶。口感干涩。配合水果，蜂蜜等天然糖分，是很好的早餐餐品。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"greek-yogurt"
+},
+{
+"material":"protein",
+"id":"17",
+"cn":"牛肉馅",
+"enname":"Drumsticks",
+"detail":"选用5%超瘦牛肉馅。拥有大量蛋白质。易搭配，可以变化出很多口感和味道的食材。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"ground-beef"
+},
+{
+"material":"protein",
+"id":"18",
+"cn":"鸡肉馅",
+"enname":"Drumsticks",
+"detail":"选用鸡胸绞肉，营养价值与鸡胸肉相同，是鸡胸肉的另一种变化。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"ground-chicken-meat"
+},
+{
+"material":"protein",
+"id":"19",
+"cn":"鸡肉火腿",
+"enname":"Drumsticks",
+"detail":"鸡胸肉再加工食品。口感味道好。钠元素稍多，配合钾元素高的食材可以相互弥补。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"chickenham"
+},
+{
+"material":"protein",
+"id":"20",
+"cn":"腰豆",
+"enname":"Drumsticks",
+"detail":"属于低GI碳水化合物，在植物中蛋白质极高。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"kidney-beans"
+},
+{
+"material":"carb",
+"id":"21",
+"cn":"红薯",
+"enname":"Drumsticks",
+"detail":"低GI碳水化合物，膳食纤维丰富，拥有大量维生素A，是碳水化合物的首选。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"sweet-potato"
+},
+{
+"material":"carb",
+"id":"22",
+"cn":"全麦面包",
+"enname":"Drumsticks",
+"detail":"选用真正的全麦超薄面包。低GI，低热量。是早餐的好选择。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"whole-wheat-bread"
+},
+{
+"material":"carb",
+"id":"23",
+"cn":"糙米",
+"enname":"Drumsticks",
+"detail":"白米的最佳替补。GI值为白米的一半，是搭配中式健身餐的最佳主食。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"brown-rice"
+},
+{
+"material":"carb",
+"id":"24",
+"cn":"全麦薄饼",
+"enname":"Drumsticks",
+"detail":"全麦制品，低GI,口感好，是百搭的西式主食。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"wheattortilla"
+},
+{
+"material":"carb",
+"id":"25",
+"cn":"土豆",
+"enname":"Drumsticks",
+"detail":"GI值比红薯稍高。饱腹感强，碳水化合物密度较低，可以有效控制碳水摄入。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"potato"
+},
+{
+"material":"carb",
+"id":"26",
+"cn":"全麦意粉/面",
+"enname":"Drumsticks",
+"detail":"全麦制品，低GI，全麦意粉的另一种形式搭配汤汁较多的餐品味道极佳。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"spegatte"
+},
+{
+"material":"carb",
+"id":"27",
+"cn":"面粉",
+"enname":"Drumsticks",
+"detail":"GI值较高，碳水密度大，在餐品中的用量很少，主要为煎饼类餐品起粘合剂的作用。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"flour_storage"
+},
+{
+"material":"carb",
+"id":"28",
+"cn":"糯米",
+"enname":"Drumsticks",
+"detail":"GI值比糙米稍高，中式餐品中的特色主食。搭配口感稍干的鸡胸肉最佳。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"nuomi"
+},
+{
+"material":"carb",
+"id":"29",
+"cn":"仿蟹柳",
+"enname":"Drumsticks",
+"detail":"人工制品，是面粉与蟹肉的结合。口感好，蛋白质丰富。GI值稍高，不作为主食。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"crab-bar"
+},
+{
+"material":"fat",
+"id":"30",
+"cn":"各类坚果",
+"enname":"Drumsticks",
+"detail":"坚果是植物的精华。维生素，微量元素，健康脂肪，蛋白质营养非常丰富。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"nuts"
+},
+{
+"material":"fat",
+"id":"31",
+"cn":"各类菜籽油",
+"enname":"Drumsticks",
+"detail":"橄榄油，花生油，葵花籽油，椰油，亚麻籽油，玉米油，芝麻油，菜籽油等优质油脂。在控制热量的前提下可以补充所有人体所需的单不饱和脂肪酸与多不饱和脂肪酸。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"oil"
+},
+{
+"material":"fat",
+"id":"32",
+"cn":"深海鱼类",
+"enname":"Drumsticks",
+"detail":"三文鱼，鲑鱼，鲔鱼等深海鱼。天然的鱼油补剂，比深海鱼油胶囊营养更丰富。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"sea-fish"
+},
+{
+"material":"fat",
+"id":"33",
+"cn":"蛋黄",
+"enname":"Drumsticks",
+"detail":"鸡蛋的精华，虽然热量稍高，但有大量健康元素。每天1-2颗蛋黄有助于减脂。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"egg-yellow"
+},
+{
+"material":"veg",
+"id":"34",
+"cn":"绿叶菜",
+"enname":"Drumsticks",
+"detail":"生菜，白菜，西蓝花，芦笋，菠菜等。含多种微量元素和维生素。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"green-veg"
+},
+{
+"material":"veg",
+"id":"35",
+"cn":"西芹",
+"enname":"Drumsticks",
+"detail":"膳食纤维最为丰富的蔬菜。热量极低，人体消化西芹所用的热量还不及蔬菜本身。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"celery"
+},
+{
+"material":"veg",
+"id":"36",
+"cn":"胡萝卜",
+"enname":"Drumsticks",
+"detail":"维生素B群丰富，口味偏甜，脆，百搭的蔬菜。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"carrot"
+},
+{
+"material":"veg",
+"id":"37",
+"cn":"黄瓜",
+"enname":"Drumsticks",
+"detail":"维生素E最为丰富，抗衰老。中式凉菜百搭的蔬菜，清脆爽口。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"cucumber"
+},
+{
+"material":"veg",
+"id":"38",
+"cn":"豆芽",
+"enname":"Drumsticks",
+"detail":"膳食纤维丰富，有大量蛋白质。热量低，爽口。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"douya"
+},
+{
+"material":"veg",
+"id":"39",
+"cn":"洋葱",
+"enname":"Drumsticks",
+"detail":"有增强免疫力，抗寒，预防心脑血管疾病。烹饪过后味道香甜，是天然的甜味剂。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"onion"
+},
+{
+"material":"veg",
+"id":"40",
+"cn":"西葫芦",
+"enname":"Drumsticks",
+"detail":"维他命和微量元素丰富。口感嫩，水分大，热量低。是百搭的西式蔬菜。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"zuchhini"
+},
+{
+"material":"veg",
+"id":"41",
+"cn":"茄子",
+"enname":"Drumsticks",
+"detail":"中式餐品的经典。属于海绵体瓜类，搭配多汁的菜品最好。抗衰老，维生素B群丰富。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"eggplant"
+},
+{
+"material":"veg",
+"id":"42",
+"cn":"玉米粒",
+"enname":"Drumsticks",
+"detail":"玉米是粗粮的一种，膳食纤维含量高。口感甜，碳水稍多，餐品中用量少。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"corn"
+},
+{
+"material":"veg",
+"id":"43",
+"cn":"冷冻杂蔬",
+"enname":"Drumsticks",
+"detail":"豆角，豌豆，玉米粒，胡萝卜块等冷冻熟蔬菜。营养等同于新鲜蔬菜。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"frozen-veg"
+},
+{
+"material":"veg",
+"id":"44",
+"cn":"菌类",
+"enname":"Drumsticks",
+"detail":"口感和肉很像，味道鲜，营养丰富，膳食纤维含量高。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"junlei"
+},
+{
+"material":"veg",
+"id":"45",
+"cn":"彩椒",
+"enname":"Drumsticks",
+"detail":"维生素综合含量最高。热量低，味道甜脆爽口，是天然甜味剂。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"color-pepper"
+},
+{
+"material":"veg",
+"id":"46",
+"cn":"番茄",
+"enname":"Drumsticks",
+"detail":"经典西式蔬菜，用在沙拉，三明治等餐品中。生西红柿营养最完整，热量低，水分大。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"tomato"
+},
+{
+"material":"veg",
+"id":"47",
+"cn":"海苔",
+"enname":"Drumsticks",
+"detail":"热量极低，膳食纤维含量比例50%，是所有蔬菜中最多。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"sea-grass"
+},
+{
+"material":"veg",
+"id":"48",
+"cn":"木耳",
+"enname":"Drumsticks",
+"detail":"口感脆爽，维生素E含量高，有美白作用。是中餐凉菜中的经典。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"muer"
+},
+{
+"material":"veg",
+"id":"49",
+"cn":"草莓",
+"enname":"Drumsticks",
+"detail":"果肉多汁，水果中色香味俱佳者。维生素丰富，膳食纤维含量高。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"strawberry"
+},
+{
+"material":"veg",
+"id":"50",
+"cn":"菠萝",
+"enname":"Drumsticks",
+"detail":"营养丰富，果肉非常甜。糖分稍高，在餐品中用量很少。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"pinnapple"
+},
+{
+"material":"veg",
+"id":"51",
+"cn":"蓝莓",
+"enname":"Drumsticks",
+"detail":"糖分含量和热量很低，维生素丰富。膳食纤维含量高。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"blueberry"
+},
+{
+"material":"veg",
+"id":"52",
+"cn":"奇异果",
+"enname":"Drumsticks",
+"detail":"热量低，营养元素丰富。可以刺激睾丸酮分泌，是健身后的水果首选。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"kiwi"
+},
+{
+"material":"veg",
+"id":"52",
+"cn":"香蕉",
+"enname":"Drumsticks",
+"detail":"GI值较低的水果。热量稍高。钾元素含量大，有效分解钠元素摄入过多。",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"banana"
+},
+{
+"material":"source",
+"id":"53",
+"cn":"",
+"enname":"Drumsticks",
+"detail":"",
+"endetail":"Great in taste, howev-er little high in fat at 10%. Protein density is higher than breast meat.",
+"img":"source"
+}
+]

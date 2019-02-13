@@ -1,0 +1,523 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 19, 2017, 5:59:44 PM
+    Author     : Mike
+*/
+
+@font-face{
+    font-family:si-bold;
+    src:url('../fonts/SourceHanSansTC-Bold.otf');
+}
+
+@font-face{
+    font-family:si-reg;
+    src:url('../fonts/SourceHanSansTC-Regular.otf');
+}
+
+@font-face{
+    font-family:si-light;
+    src:url('../fonts/SourceHanSansTC-Light.otf');
+}
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+p{
+    font-family: si-light;
+}
+
+
+.landing-text{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.landing-text p{
+    padding-top: 50px;
+    color: #fff;
+    font-size: 19px;
+    line-height: 50px;
+    text-align: justify;   
+}
+
+.landing{
+    background-image: url('../img/landing-bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height:auto;
+    display:block;
+}
+
+.center{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 15px;}
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.animated-modal {
+  max-width: 550px;
+  border-radius: 4px;
+  overflow: hidden;
+  transform: translateY(-50px);
+  transition: all .7s;
+}
+
+.animated-modal h1{
+    
+  transform: translateY(-50px);
+  opacity: 0;
+  font-family: si-bold!important;
+  font-size: 25px;
+  transition-property: transform, opacity;
+  transition-duration: .4s;
+}
+
+.animated-modal p {
+
+  transform: translateY(-50px);
+  opacity: 0;
+  font-size: 15px;
+  transition-property: transform, opacity;
+  transition-duration: .4s;
+}
+
+.fancybox-slide--current .animated-modal,
+.fancybox-slide--current .animated-modal h1{
+    transform: translateY(0);
+    opacity: 1;
+    font-family: si-bold!important;
+    font-size: 25px;
+}
+.fancybox-slide--current .animated-modal p {
+  font-size: 15px;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Reveal content with different delays */
+.fancybox-slide--current .animated-modal h1 {
+      font-family: si-bold!important;
+    font-size: 25px;
+  transition-delay: .1s;
+}
+
+.fancybox-slide--current .animated-modal p {
+  transition-delay: .3s;
+}
+
+
+.centeral{
+    text-align: center;}
+.element-item h1{
+    font-family:si-reg;
+    font-size: 17px!important;
+    text-align: center;
+    color: #333; 
+}
+.element-item h2{
+    font-family:si-reg;
+    font-size: 17px!important;
+    padding-top: 20%;
+    text-align: center;
+    color: #fff; 
+}
+.material-title{
+    font-family: si-bold;
+    font-size: 20px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.material-title:hover{
+    background-color: #323232;
+    color: #fff;
+    padding:10px 15px;
+}
+
+.active1:before{
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.active1{
+    opacity: 1;
+    padding:10px 15px;
+    background-color: #323232;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.zoom-sign{
+    opacity: 0;
+    color: #fff;
+    font-size: 50px;
+    background-color: #000;
+    transition: 0.8s;
+    position: absolute;
+    width: 96%;
+    height: 82%;
+}
+
+.zoom-sign:hover{
+    opacity: 0.8;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+
+#diamond {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color:#F3826D;
+    position: relative;
+    top: 0px;
+}
+#diamond:after {
+    content: '';
+    position: absolute;
+    left: -9px;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #F3826D;
+}
+
+.material-description{
+    position: relative;
+    top:60px;
+    margin-bottom: 100px;
+}
+.material-description p{
+    margin-bottom: 17px!important;
+    margin-top: 6px!important;
+    margin-left: 51px!important;
+}
+
+#protein,#carbohydrat,#fat,#veg,#source{
+    display: none;
+}
+
+.accordionjs .acc_section {
+  
+}
+.accordionjs .acc_section.acc_active > .acc_head {
+   
+    color: #fff;
+    background-color: #323232!important;
+}
+
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    background-color: #323232;
+    color: #fff;
+}
+
+footer>h1{
+    font-family:si-light;
+    font-size: 15px;
+    text-align: left; 
+    color: #fff;
+}
+
+
+.breakfast, .lunch, .add{
+    padding:10px 15px;
+    background-color: #333;
+    color: #fff;
+    margin:3px;
+    text-align: center;
+    width: 94px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.breakfast:hover, .lunch:hover, .add:hover{
+    padding:14px 14px;
+    background-color: #d2d2d2;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.breakfast:active, .lunch:active, .add:active{
+    padding:14px 14px;
+    background-color: #d2d2d2;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+.accordion > ul > li.active > a {
+    background: 0px 0px;
+    border-top: 1px solid rgb(238, 238, 238);
+    border-right: 1px solid rgb(238, 238, 238);
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid rgb(238, 238, 238);
+}
+
+
+#cal-tabs {
+    height: 55px;
+    overflow: visible;
+}
+
+materialize.css:2783
+.tabs.tabs-fixed-width {
+    display: flex;
+}
+materialize.css:1962
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
+materialize.css:2763
+.tabs {
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 48px;
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+
+textarea{
+    width:100%;
+    height:200px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding:15px;
+}
+
+.btn-primary{
+    width: 250px;
+    cursor: pointer;
+    background-color: #4caf50;
+    border:none;
+}
+
+.btn-primary:hover{
+    background-color: #6bcf6f;
+    border-color: #6bcf6f;
+}
+
+
+label{
+    font-family: si-reg!important;
+}
+
+#sm-img{
+        float: left;
+    display: inline-block;
+    position: absolute;
+    padding: 25px;
+}
+
+@media screen and (max-width: 768px){
+    .landing-text {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.landing-text p {
+    font-size: 12px;
+    line-height: 25px;
+    text-align:center;
+    padding-top: 15px;
+}
+
+#sm-img{
+    float: left;
+    display: inline-block;
+    position: absolute;
+    padding: 7px;
+    width: 12%;
+    left: 26px;
+}
+
+.zoom-sign{
+    display: none;
+}
+
+#big-logo{
+    width:140px;
+}
+
+.navbar-nav{
+    background-color: rgba(0,0,0,0.05)!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 15px!important;
+    padding: 0px;
+}
+
+.center{
+    margin-top: 0!important;
+}
+
+.material-title {
+    font-family: si-reg;
+    font-size: 12px;}
+
+    .material-title:hover {
+    font-family: si-reg;
+    font-size: 12px;}
+.active1 {
+    padding: 3px 1px!important;}
+
+.material-description {
+    top: 16px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.material-description p {
+    margin-bottom: 0px!important;
+        margin-left: 21px!important;
+        font-size: 12px;
+    }
+#diamond {
+    border-right-width: 5px;
+    border: 5px solid transparent;
+    position: relative;
+ 
+    top: 4px;
+}
+#diamond:after {
+    left: -5px;
+    top: 5px;
+    border: 5px solid transparent;
+        border-bottom-color: #F3826D;
+}
+
+footer{
+    height:auto;
+    padding-top: 30px;
+
+}
+footer p{
+    font-size: 12px;
+}
+
+.element-item h1 {
+    font-family: si-reg;
+    font-size: 12px!important;
+}
+
+.breakfast, .lunch, .add {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.breakfast:active, .lunch:active, .add:active {
+    padding: 5px 10px;
+font-size: 12px;}
+
+}
+
+#thankyou{
+    display: none;
+}
+
+#thankyou p{
+    font-size: 30px;
+    font-family: si-bold;
+    color:#4caf50 ;
+}
+
+.map-hover:hover{
+    opacity: 0.7;
+}
+
+
+.btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color:#6bcf6f;
+    border-color: #6bcf6f;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none!important;
+}
+
+.faq p{
+    cursor: pointer;
+        line-height: 2em;
+}
+
+.faq p:hover{
+    color:#ff9800;
+}
+
+
+.highlight{
+    color:#ff9800;
+    font-family: si-bold;
+    font-size: 20px;
+    border-right:3px solid #ff9800;
+    transition: font-size 0.5s;
+}
+#a1,#a2,#a3,#a4,#a5,#a6,#a7 p{
+     line-height: 2em;
+}
+
+
+.order-btn{
+    border:2px solid #fff;
+    padding:10px 30px;
+    font-size: 25px;
+    font-family: si-light;
+    color:#fff;
+    background:transparent;
+    transition:all 0.3s;
+    cursor: pointer;
+}
+
+.order-btn:hover{
+    color:#000;
+    background-color: #fff;
+    transition:all 0.3s;
+    cursor: pointer;
+}
+
+a:hover{text-decoration: none;}
+
+
+
+@media screen and (max-height: 808px){
+    #home0{width: 200px;}
+    #home1{width: 300px;}
+    #home2{width: 300px;}
+}

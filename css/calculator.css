@@ -1,0 +1,59 @@
+@font-face{
+    font-family:si-bold;
+    src:url('../fonts/SourceHanSansTC-Bold.otf');
+}
+
+@font-face{
+    font-family:si-reg;
+    src:url('../fonts/SourceHanSansTC-Regular.otf');
+}
+
+@font-face{
+    font-family:si-light;
+    src:url('../fonts/SourceHanSansTC-Light.otf');
+}
+a, label, span, p, button, h1, h2, h3, h4, h5, h6, th, td {
+  font-family: si-reg;
+}
+#cal-tabs {
+  height: 55px;
+  overflow: visible;
+}
+#cal-tabs .tab > a {
+  color: #000;
+  text-decoration: none;
+  font-size: 2.2rem;
+  position: relative;
+  overflow: visible;
+}
+#cal-tabs .tab.disabled > a {
+  color: #8e8e8e;
+}
+#cal-tabs .indicator {
+  background-color: #4caf50;
+  height: 7px;
+}
+#cal-tab-1, #cal-tab-2, #cal-tab-3 {
+  max-width: 450px;
+  margin: 80px auto;
+}
+[type="checkbox"]+label {
+  padding-left: 28px;
+  margin-right: 25px;
+}
+
+@media (max-width: 991px) {
+  #cal-tabs .tab > a {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 767px) {
+  #cal-tabs .tab > a {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 575px) {
+  #cal-tabs .tab > a {
+    font-size: 1rem;
+  }
+}
